@@ -18,7 +18,7 @@ public:
         }
         if(ans >= 1LL<<31 && sign == true) return INT_MAX;
         else if(ans >= 1LL<<31 && sign == false) return INT_MIN;
-       if(sign) return ans;
-     else return -ans;
+        if(sign) return ans;
+        else return -ans;
     }
 };
